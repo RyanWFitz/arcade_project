@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box; 
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 42pt;   
+    background-color: #F2F3AE;
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EDD382;
+}
+
+#reminder{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25pt;
+    font-family: 'Dosis', sans-serif;
+}
+
+#playerName{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.playerOne{
+    height: 25px;
+    margin-right: 15px ; 
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+}
+
+.playerTwo{
+    height: 25px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+}
+
+.start{
+    height: 25px;
+    padding: 5px;
+}
+
+/* I'm not a fan of using the div tag like this in order to style my player names
+I'm aware this only works because it is the only <div> in use. */
+div{
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35pt;
+    font-family: 'Dosis', sans-serif;
+}
+
+#game_board {   
+    background-color: #FC9E4F;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vh;
+    height: 60vh;
+}
+
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'VT323', monospace;;
+    color: #020122;
+    font-size: 19vh;
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    border: 5px solid black;
+}
+
+#playerTurn{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 35pt;
+    font-family: 'Dosis', sans-serif;
+}
+
+#restart {
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+}
